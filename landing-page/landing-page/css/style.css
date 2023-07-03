@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    h5{
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    p{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    
+    /* ================================nav section=========================================== */
+    #nav-menu{
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 2;
+    }
+    .navbar-brand{
+        height:100px;
+        width: 300px;;
+    }
+     #link1{
+        color: rgb(10, 10, 94);
+       
+    }
+    #link1:hover{
+        color: red;
+        transition: 0.3s;
+    }
+    
+    #link1::before{
+        content: "ðŸ“ž";
+    }
+    #link2{
+        color: rgb(10, 10, 94);
+        
+    }
+    #link2:hover{
+        color: red;
+        transition: 0.3s;
+    }
+    #link2::before{
+        content: "ðŸ“§";
+    }
+    .nav-item{
+        color: rgb(7, 7, 78);
+        font-weight: 500;
+        padding-left: 35px;
+    }
+    .btn0{
+        height: 52px;
+        width: 130px;
+        outline: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.4s;
+        background-color: rgb(19, 73, 19);
+        border-radius: 5px;
+    }
+    .btn0:hover{
+        background: whitesmoke;
+        transition: all 0.4s;
+    }
+    /* ================================main section=========================================== */
+    .main{
+        background:rgba(201, 84, 7, 0.5) url("../images/banner1.jpg");
+        background-blend-mode: color;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 95vh;
+        max-width: 100%;
+    }
+    
+    .main h1{
+        /* font-size: 3rem;
+        font-weight: 800; */
+        color: whitesmoke;
+    }
+    .main h3{
+        /* font-size: 2rem;
+        font-weight: 500; */
+        color: whitesmoke;
+    }
+    
+    .main h5{
+        /* font-size: 1.5rem;
+        font-weight: 350; */
+        color: whitesmoke;
+    }
+    .main form input{
+        height: 40px;
+        /* width: 30%; */
+        width: 50%;
+        margin-top: 15px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 15px;
+    }
+    .btn2{
+        font-weight: 500;
+        height: 40px;
+        /* width: 15%; */
+        width: 25%;
+        background-color: rgb(19, 73, 19);
+        color: white;
+        margin-left: 60px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    .btn2:hover{
+        background: whitesmoke;
+        color: rgb(2, 46, 2);
+        transition: all 0.4s;
+    }
+    
+    
+    /* ================================category section=========================================== */
+    .ceta{
+        background-color: rgb(3, 77, 3);
+    }
+    .ceta h5{
+        color: white;
+    }
+    /* ================================category2 section=========================================== */
+    #img1 img{
+        height: 450px;
+        max-width: 100%;
+    }
+    .ceta2 h2{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: rgb(7, 7, 78);
+    }
+    .ceta2 p{
+        /* font-size: 1.2rem;
+        font-weight: 400; */
+        color: rgb(1, 1, 19);
+    }
+    /* ================================category3 section=========================================== */
+    .ceta-3-img{
+        background: url("../images/digital-marketing-2774415_1280.jpg") no-repeat;
+        position: relative;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 95vh;
+        max-width: 100%;
+    }
+    #heading-1{
+        /* font-size: 1.5rem;
+        font-weight: 800; */
+        color: white;
+    
+    }
+    #lead-1{
+        /* font-size: 1.3rem;
+        font-weight: 350; */
+        color: white;
+    
+    }
+    #lead-2{
+        /* font-size: 1.2rem;
+        font-weight: 350; */
+        color: white;
+    
+    }
+    .row featurette{
+        background-position: center;
+        max-width: 100%;
+    }
+    #img2 img{
+        height: 450px;
+        max-width: 100%;
+    }
+    /* ================================category4 section=========================================== */
+    
+    #ceta-4-li ul{
+    list-style-type: none;
+    font-size: 1.1rem;
+     font-weight: 300;
+    color: rgb(31, 15, 15);
+    }
+    #ceta-4-li ul li::before{
+        content: "ðŸŒ–";
+    }
+    #ceta-4-li h2{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: rgb(7, 7, 78);
+    
+    }
+    #ceta-4-li p{
+        /* font-size: 1.1rem;
+        font-weight: 300; */
+        color: rgb(1, 1, 19);
+    }
+    #ceta4-img{
+        max-width: 100%;
+    }
+    /* ================================category5 section=========================================== */
+    #ceta5-head h4{
+        /* font-size: 1.1rem;
+        font-weight: 700; */
+        color: whitesmoke;
+    }
+    #ceta5-head p{
+        /* font-size: 1.1rem;
+        font-weight: 500; */
+        color: whitesmoke;
+    }
+    .ceta5{
+        background: url("../images/background-texture-surface-dark-wallpaper-preview.jpg") no-repeat;
+        
+        background-size: cover;
+        min-height: 95vh;
+        max-width: 100%;
+    }
+    #ceta5-img img{
+        max-width: 100%;
+    }
+    /* ================================category6 section=========================================== */
+    
+       
+    
+    #ceta6-img img{
+        height: 300px;
+        border: 3px double black;
+        border-radius: 10px;
+        max-width: 100%;
+    
+    }
+    #ceta6-con{
+        background: linear-gradient(rgb(43, 5, 5),rgb(146, 146, 6),rgb(59, 51, 51));
+        /* height: 350px;
+       max-width: 100%; */
+        border: 3px double black;
+        border-radius: 10px;
+        /* margin-left: 30px; */
+    
+    }
+    #ceta6-con h3{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: aliceblue;
+        text-align: center;
+    }
+    
+    #ceta6-con p{
+        /* font-size: 1.1rem;
+        font-weight: 500; */
+        color: aliceblue;
+        text-align: center;
+    }
+    
+    /* ================================category7 section=========================================== */
+    #ceta7-sec{
+        background: rgb(136, 130, 130);
+    }
+    #ceta7-con{
+        
+        text-align: left;
+    }
+    #ceta7-con h2{
+        /* font-size: 1.3rem;
+        font-weight: 800; */
+        color: aliceblue;
+        text-align: left;
+    }
+    #ceta7-con p{
+        /* font-size: 1.2rem;
+        font-weight: 500; */
+        color: aliceblue;
+        text-align: left;
+    }
+    
+    /* ================================category8 section=========================================== */
+    #ceta8-con{
+        
+        text-align: left;
+    }
+    #ceta8-con h2{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: black;
+        text-align: left;
+    }
+    #ceta8-con p{
+        /* font-size: 1.6rem;
+        font-weight: 500; */
+        color: black;
+        text-align: left;
+    }
+    /* ================================category9 section=========================================== */
+    #ceta9-img img{
+        height: 300px;
+        max-width: 100%;
+    }
+    #ceta9-img h2{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: aliceblue;
+        text-align: center;
+    
+    }
+    #ceta9-img p{
+        /* font-size: 1.3rem;
+        font-weight: 500; */
+        color: aliceblue;
+        text-align: center;
+    
+    }
+    /* ================================category10 section=========================================== */
+    #btn3:hover{
+        background-color: aliceblue;
+        color: black;
+        font-weight: 500;
+    
+    }
+    .ceta10 h1{
+        /* font-size: 2rem;
+        font-weight: 800; */
+        color: rgb(7, 7, 78);
+    }
+    .ceta10 h4{
+        /* font-size: 1.5rem;
+        font-weight: 600; */
+        color: rgb(7, 7, 78);
+    }
+    #ceta10-para{
+        /* font-size: 1.2rem;
+        font-weight: 400; */
+        color: rgb(7, 7, 78);
+    }
+    /* ================================category11 section=========================================== */
+    .ceta11{
+        background-color: black;
+        color: aliceblue;
+    }
+    /* ================================media query=========================================== */
+    @media only screen and (max-width:576px){
+        #ceta6-con{
+            max-width: 100%;
+            margin-left: 0%;
+        }
+        #ceta6-img{
+            max-width: 100%;
+            margin-left: 0%;
+        }
+        
+    }
